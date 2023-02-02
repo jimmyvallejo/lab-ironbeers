@@ -1,8 +1,72 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+li{
+  margin-left: 20px;
+}
+
+
+#nav{
+  background-color: black;
+  padding: 50px;
+}
+
+#navlist{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ 
+}
+
+#beers{
+  width: 65px;
+}
+
+ul{
+  list-style: none;
+}
+
+#randombeers{
+  width: 65px;
+}
+
+#many{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+
+.beer-partial {
+  flex: 0 0 33.33%;
+}
+
+#index{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#beerimg{
+  width: 300px;
+}
+
+button{
+  margin-top: 20px;
 }
